@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="CharacterStats" load_steps=2 format=3 uid="uid://de7bnfqxcku1y"]
+
+[ext_resource type="Script" path="res://custom_resources/character_stats.gd" id="1_b1k64"]
+
+[resource]
+script = ExtResource("1_b1k64")
+job = "Warrior"
+max_mana = 100
+dash_speed = 400
+dash_duration = 0.4
+dash_delay = 0.8
+is_dashing = false
+can_dash = true
+attacking = false
+max_health = 100
+attack = 20
+defence = 20
+move_speed = 150
+move_speed_reduction = 0.7
+gravity = 1000
+jump_force = 275
